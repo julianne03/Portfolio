@@ -1,18 +1,45 @@
 nav {
     position: fixed;
-    top: 0;
-    width: 100%;
+    top: 1%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
     height: 60px;
     display: flex;
+    justify-content: space-between;
 }
   
 nav > div {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 }
 
-nav > div > a {
+nav > div > div > a {
     text-decoration: none;
+    color: black;
+}
+
+.menu {
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.contactBox {
+    right: 0;
+    width: 20%;
+}
+
+.contact {
+    color: white;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;  
+}
+
+a a:visited, a:hover, a:active, a:focus {
+    text-decoration: none !important;
+    outline: none !important;
 }

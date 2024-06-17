@@ -5,24 +5,31 @@ import '../styles/common/Navbar.css'
 const Nav = () => {
   return (
     <nav>
-      <div>
+      <div className="menu">
+        <div>
+            <NavLink to="/">
+            Julianne's Portfolio
+            </NavLink>
+        </div>
+        <div>
+            <NavLink to="/about">
+            About
+            </NavLink>
+        </div>
+        <div>
+            <NavLink to="/projects">
+            Projects
+            </NavLink>
+        </div>
+        <div>
+            <NavLink to="/blog">
+            Blog
+            </NavLink>
+        </div>
+      </div>
+      <div className="contactBox">
         <NavLink to="/">
-          Main
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/about">
-          About
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/projects">
-          Projects
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/blog">
-          Blog
+            <a className="contact" href="#contact">Contact</a>
         </NavLink>
       </div>
     </nav>
