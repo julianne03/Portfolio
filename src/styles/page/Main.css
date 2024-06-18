@@ -1,0 +1,15 @@
+.intro {
+    font-size: xx-large;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+
+.job {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
