@@ -28,8 +28,8 @@ const Nav = () => {
         </div>
       </div>
       <div className="contactBox">
-        <NavLink to="/">
-            <a className="contact" href="#contact">Contact</a>
+        <NavLink to="/" href="#contact" className="contact">
+            Contact
         </NavLink>
       </div>
     </nav>
