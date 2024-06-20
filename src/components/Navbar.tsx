@@ -7,29 +7,29 @@ const Nav = () => {
     <nav>
       <div className="menu">
         <div>
-            <NavLink to="/">
+            <NavLink to="/" className="menuLink">
             Julianne's Portfolio
             </NavLink>
         </div>
         <div>
-            <NavLink to="/about">
+            <NavLink to="/about" className="menuLink">
             About
             </NavLink>
         </div>
         <div>
-            <NavLink to="/projects">
+            <NavLink to="/projects" className="menuLink">
             Projects
             </NavLink>
         </div>
         <div>
-            <NavLink to="/blog">
+            <NavLink to="/blog" className="menuLink">
             Blog
             </NavLink>
         </div>
       </div>
       <div className="contactBox">
-        <NavLink to="/">
-            <a className="contact" href="#contact">Contact</a>
+        <NavLink to="/" href="#contact" className="contact">
+            Contact
         </NavLink>
       </div>
     </nav>

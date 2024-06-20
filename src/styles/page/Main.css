@@ -1,0 +1,28 @@
+.mainPage {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    margin-left: 2%;
+    background-color: white;
+}
+
+.intro {
+    font-size: xx-large;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+
+.description > p {
+    line-height: 2.1;
+}
+
+.web {
+    margin-bottom: 4%;
+    font-size: 90px;
+    writing-mode: vertical-lr;
+}
+
