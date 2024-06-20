@@ -16,8 +16,12 @@ nav > div {
     font-weight: 500;
 }
 
-nav > div > div > a {
+.menuLink {
     text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
+.menuLink:active, .menuLink:hover, .menuLink:focus {
     color: black;
 }
 
@@ -38,4 +42,8 @@ nav > div > div > a {
     border-radius: 30px;
     text-decoration: none !important;
     outline: none !important;
+}
+
+.contact > a, a:active, a:hover, a:focus {
+    color: white;
 }
