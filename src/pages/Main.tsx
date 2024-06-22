@@ -15,8 +15,11 @@ class Main extends React.Component {
                 I like to code in JavaScript, but I always learn new programming languages and apply them to my projects.<br></br>
                 Please Click my projects and blog page to see what I'm working on now!</p>
             </div>
-
-            <h3 id="contact">Contact</h3>
+            <div className="more"><span>Learn More</span></div>
+            <div id="tech">
+              Tech Stack
+            </div>
+            <div id="contact">Contact</div>
           </div>
           <div>
             <div className="web">Web Developer</div>
