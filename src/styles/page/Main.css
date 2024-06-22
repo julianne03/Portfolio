@@ -21,6 +21,12 @@
     line-height: 2.1;
 }
 
+.socialBox {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .web {
     margin-bottom: 4%;
     font-size: 90px;
