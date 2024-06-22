@@ -2,6 +2,11 @@ import React from "react";
 import '../styles/common/Page.css';
 import '../styles/page/Main.css';
 
+function learnMoreBtnOnClick(): void {
+  const learnMoreBtn: Element | null = document.getElementById("tech");
+  learnMoreBtn?.scrollIntoView({ behavior: "smooth", inline: "end" });
+}
+
 class Main extends React.Component {
   render () {
     return (
@@ -15,14 +20,16 @@ class Main extends React.Component {
                 I like to code in JavaScript, but I always learn new programming languages and apply them to my projects.<br></br>
                 Please Click my projects and blog page to see what I'm working on now!</p>
             </div>
-            <div className="more"><span>Learn More</span></div>
+            <div className="more" onClick={learnMoreBtnOnClick}>Learn More</div>
             <div id="tech">
               Tech Stack
+              {/* temporary */}
+              <div className="skillSet"></div> temporary
             </div>
             <div id="contact">Contact</div>
           </div>
           <div>
-            <div className="web">Web Developer</div>
+            <div className="web">WebDeveloper</div>
           </div>
         </div>
     )
