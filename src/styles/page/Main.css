@@ -17,7 +17,14 @@
 }
 
 .description > p {
+    font-size: 18px;
     line-height: 2.1;
+}
+
+.socialBox {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .web {
@@ -26,3 +33,35 @@
     writing-mode: vertical-lr;
 }
 
+.more {
+    margin-top: 150px;
+    left: 40%;
+    top: 50%;
+    color: white;
+    background-color: black;
+    width: 20%;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    text-decoration: none !important;
+    outline: none !important;
+    display: flex;
+    justify-content: center; /* 자식 요소를 가로(수평) 기준으로 가운데 정렬시킴 */
+    align-items: center;
+}
+
+.more > a, a:active, a:hover, a:focus {
+    color: white;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+#tech {
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.skillSet {
+    height: 500px;
+    background-color: black;
+}
